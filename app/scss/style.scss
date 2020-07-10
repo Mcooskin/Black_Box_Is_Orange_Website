@@ -2,6 +2,7 @@
 @import "font_size";
 @import "hero";
 @import "about";
+@import "paintings";
 
 * {
     margin: 0;
@@ -12,6 +13,7 @@ html {
 }
 body {
     font-family: 'Oswald', sans-serif;
+    color: #235742;
 }
 .container {
     max-width: 1280px;

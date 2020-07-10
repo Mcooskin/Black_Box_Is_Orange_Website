@@ -1,53 +1,54 @@
-.container {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-
-    article {
-        color: #235742;
+.about {
+    .container {
         display: flex;
-        padding: 100px 30px 30px 30px;
-        width: 70vw;
-
-        .text {
-            padding: 30px;
-            width: 50%;
-            h1 {
-                text-align: center;
-                text-transform: uppercase;
-                padding-bottom: 30px;
-                letter-spacing: 4px;
-                position: relative;
-                margin-top: -100px;
-
-                &::before {
-                    content: "";
-                    display: inline-block;
-                    position: absolute;
-                    height: 60px;
-                    width: 500px;
-                    background-color: #ebc49a;
-                    top: 30px;
-                    z-index: -1;
+        align-items: center;
+        justify-content: center;
+    
+        article {
+            color: #235742;
+            display: flex;
+            padding: 100px 30px 30px 30px;
+            width: 70vw;
+    
+            .text {
+                padding: 30px;
+                width: 50%;
+                h1 {
+                    text-align: center;
+                    text-transform: uppercase;
+                    padding-bottom: 30px;
+                    letter-spacing: 4px;
+                    position: relative;
+                    margin-top: -100px;
+    
+                    &::before {
+                        content: "";
+                        display: inline-block;
+                        position: absolute;
+                        height: 60px;
+                        width: 500px;
+                        background-color: #ebc49a;
+                        top: 30px;
+                        z-index: -1;
+                    }
+    
+                    span {
+                        margin-left: 190px;
+                    }
                 }
-
-                span {
-                    font-size: 38pt;
-                    margin-left: 170px;
+                p {
+                    text-align: center;
                 }
             }
-            p {
-                text-align: center;
+            .portrait {
+                background-image: url(images/ARTIST_can-serefoglu-o1sEEFCRfC0-unsplash-compressor.jpg);
+                background-size: cover;
+                background-position: center;
+                background-repeat: no-repeat;
+                width: 50%;
+                height: auto;
+                z-index: -2;
             }
-        }
-        .portrait {
-            background-image: url(images/ARTIST_can-serefoglu-o1sEEFCRfC0-unsplash-compressor.jpg);
-            background-size: cover;
-            background-position: center;
-            background-repeat: no-repeat;
-            width: 50%;
-            height: auto;
-            z-index: -2;
         }
     }
 }
